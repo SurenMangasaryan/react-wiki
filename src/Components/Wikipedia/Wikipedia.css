@@ -1,0 +1,70 @@
+.wiki {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-box {
+    width: 200px;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.wiki-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    font-weight: 400;
+}
+
+.wiki-form {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.wiki-inp {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+    width: 400px;
+    outline: none;
+    border: none;
+    background-color: #e8eef3;
+    padding: 0 20px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wiki-inp::placeholder {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.wiki-btn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 30px;
+    width: 80px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #645CFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

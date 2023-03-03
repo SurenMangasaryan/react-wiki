@@ -1,0 +1,44 @@
+.cart {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cart-box {
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    transition: all .5s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.h3 {
+    color: black;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.p {
+    color: #b5c6dd;
+    font-weight: 300;
+}
+
+.cart-box:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.cart-box:hover .h3 {
+    color: white;
+}
+
+.cart-box:hover .p {
+    color: #64748b;
+}
