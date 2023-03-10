@@ -42,3 +42,7 @@
 .cart-box:hover .p {
     color: #64748b;
 }
+
+a{
+    text-decoration: none;
+}
